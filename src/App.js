@@ -6,15 +6,16 @@ import Mentorship from './Mentorship/Mentorship';
 import BtnSlider from './Components/Slider/BtnSlider';
 import HeroPage from './Components/HeroPage/HeroPage';
 import AboutUs from './Components/About/AboutUs';
+import AboutInner from './Components/About/AboutInner/AboutInner';
 
 function App() {
   return (
     <div className="App">
     <HeroPage/>
+    
       <AboutUs />
-    <Arrays/>
-
-    <Footer />
+  <Arrays/>
+  <Footer/>
     </div>
   );
 }

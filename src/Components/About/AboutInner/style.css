@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.container-about{
+    position:relative;
+    height: auto;
+}
+
+.content{
+   
+    margin: 20px;
+ 
+   
+}
+.content p, .container-about h1{
+    color: white;
+}
+
+.absolute-content{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 1rem;
+}
+
+@media screen and (min-width: 568px){
+    .absolute-content{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+}
+    

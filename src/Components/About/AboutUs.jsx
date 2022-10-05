@@ -1,8 +1,14 @@
 import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Container, Grid, Paper, Typography } from '@material-ui/core'
 import React from 'react'
+import { useState } from 'react'
+import PopUp from '../PopUp/PopUp'
 import './about.css'
+import AboutInner from './AboutInner/AboutInner'
 
 const AboutUs = () => {
+
+    const [triggerPopup, setTrigger]= useState(false)
+
     const posts=[
         {
            id:1,
@@ -34,13 +40,15 @@ const AboutUs = () => {
             src: require('../../Arrays/stud4.jpg'),
             desc:'Martha does exceptionally well in her main secondary school exams with a vision in mind for her career.',
             reminder:true,
-            title:'Social benefits '
+            title:'Social benefits ',
+            popTitle:'Testing head'
+           
          }]
   return (
     <Container>
-        <h1>ABOUT US</h1>
-        <Grid container alignItems='flex-end' >
-
+        <h1>About Us</h1>
+        <AboutInner/>
+   <Grid container alignItems='flex-end'>
             {posts.map((post)=>(
                 <Grid item  md={3} sm={6} xs={12} >
                     <Paper className='about-grid'>
@@ -63,17 +71,17 @@ const AboutUs = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary">
+                            <Button size="small" color="primary" onClick={()=> setTrigger(true)}>
                                 Learn More
                             </Button>
                         </CardActions>
-                    
+                        <PopUp trigger={triggerPopup} setTrigger={setTrigger} post={post} />
                         </Card>
                     </Paper>
-            
+                    
                 </Grid>
             )) }
-        </Grid>
+            </Grid>
 
     </Container>
   )
