@@ -7,10 +7,12 @@ import BtnSlider from './Components/Slider/BtnSlider';
 import HeroPage from './Components/HeroPage/HeroPage';
 import AboutUs from './Components/About/AboutUs';
 import AboutInner from './Components/About/AboutInner/AboutInner';
+import Navbar from './Components/NavBar/Navbar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
     <HeroPage/>
     
       <AboutUs />

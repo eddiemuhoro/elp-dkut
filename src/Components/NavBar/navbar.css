@@ -1,0 +1,28 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    background-color: #90292a;
+}
+
+.logo h2{
+    color: white;
+    margin: 0;
+}
+
+.navList{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navList li{
+    list-style: none;
+    margin: 0 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.navList li :hover{
+    color: #a75c5c;
+}

@@ -38,7 +38,7 @@ const AboutUs = () => {
             id:4,
             step:'04',
             src: require('../../Arrays/stud4.jpg'),
-            desc:'Martha does exceptionally well in her main secondary school exams with a vision in mind for her career.',
+            desc:'From our weekly sessions in school auditorium. Activities done during this sessions help unite our group.',
             reminder:true,
             title:'Social benefits ',
             popTitle:'Testing head'

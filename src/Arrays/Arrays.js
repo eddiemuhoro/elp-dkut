@@ -20,7 +20,7 @@ import axios from 'axios'
            id:2,
            step:'02',
            src: require('./stud2.jpg'),
-           desc:'Her parents can’t afford her high school tuition. She then applies for the Wings To Fly program.',
+           desc:'Outdoors activities that improve our emotional, intellectual, and behavioral development.',
            reminder:true,
            title:'Our precious bond ❤'
         },
@@ -36,7 +36,7 @@ import axios from 'axios'
             id:4,
             step:'04',
             src: require('./stud4.jpg'),
-            desc:'Martha does exceptionally well in her main secondary school exams with a vision in mind for her career.',
+            desc:'From our weekly sessions in school auditorium. Activities done during this sessions help unite our group.',
             reminder:true,
             title:'enjoying a beautiful sunset'
          }]

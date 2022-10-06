@@ -28,7 +28,7 @@ const AboutInner = () => {
             <Grid container alignItems='flex-end'justifyContent='space-between' height='40vh' className='container-about'>
             {roles.map(role => (
              <Grid item  md={3} sm={6} xs={12}   className='content'>
-                <Paper>
+                <Paper >
 
                 <div style={{background:role.color}} className='absolute-content'>
                     <div style={{padding:'20px'}}>
