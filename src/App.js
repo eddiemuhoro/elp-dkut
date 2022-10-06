@@ -8,15 +8,21 @@ import HeroPage from './Components/HeroPage/HeroPage';
 import AboutUs from './Components/About/AboutUs';
 import AboutInner from './Components/About/AboutInner/AboutInner';
 import Navbar from './Components/NavBar/Navbar';
+import { Link } from 'react-scroll';
 
 function App() {
+
   return (
     <div className="App">
       <Navbar/>
     <HeroPage/>
     
-      <AboutUs />
-  <Arrays/>
+      <div id='about'>
+          <AboutUs />
+      </div>
+      <div id='gallery'>
+          <Arrays/>
+      </div>
   <Footer/>
     </div>
   );

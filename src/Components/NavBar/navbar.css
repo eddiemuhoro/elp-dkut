@@ -26,3 +26,7 @@
 .navList li :hover{
     color: #a75c5c;
 }
+
+.active{
+    font-weight: bolder;
+}

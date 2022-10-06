@@ -45,7 +45,7 @@ const AboutUs = () => {
            
          }]
   return (
-    <Container>
+    <Container >
         <h1>About Us</h1>
         <AboutInner/>
    <Grid container alignItems='flex-end'>

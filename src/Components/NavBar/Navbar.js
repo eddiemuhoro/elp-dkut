@@ -1,5 +1,6 @@
 import { Notifications } from '@material-ui/icons'
 import React, { useState } from 'react'
+import { Link } from 'react-scroll'
 import PopUp from '../PopUp/PopUp'
 import './navbar.css'
 import NotificationsAlert from './Notofications/Notifications'
@@ -12,9 +13,9 @@ const Navbar = () => {
         </div>
         <div className='nav'>
             <ul className='navList'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Gallery</li>
+                <li><Link>Home</Link></li>
+                <li><Link to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link></li>
+                <li><Link to="gallery" spy={true} smooth={true} offset={50} duration={500}>Gallery</Link></li>
                 <li onClick={()=> setTrigger(true)}><Notifications /></li>
             </ul>
         </div>
