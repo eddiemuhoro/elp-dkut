@@ -4,6 +4,11 @@
     align-items: center;
     height: auto;
     background-color: #90292a;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    position: fixed;
+    width: 100%;
 }
 
 .logo h2{

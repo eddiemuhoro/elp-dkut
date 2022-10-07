@@ -1,7 +1,7 @@
 import { Close, CloseOutlined } from '@material-ui/icons'
 import React from 'react'
 
-const PopUp = ({setTrigger, trigger, post}) => {
+const LeadersPop = ({setTrigger, trigger, post}) => {
   return (trigger) ? (
 
     <div className='popup'>
@@ -17,4 +17,4 @@ const PopUp = ({setTrigger, trigger, post}) => {
   ) : ""
 }
 
-export default PopUp
+export default LeadersPop

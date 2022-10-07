@@ -48,7 +48,7 @@ const AboutUs = () => {
     <Container >
         <h1>About Us</h1>
         <AboutInner/>
-   <Grid container alignItems='flex-end'>
+   <Grid container justifyContent='space-around'>
             {posts.map((post)=>(
                 <Grid item  md={3} sm={6} xs={12} >
                     <Paper className='about-grid'>
