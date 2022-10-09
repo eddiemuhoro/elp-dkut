@@ -2,6 +2,14 @@
 *{
   box-sizing: border-box;
 }
+.App{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1200px;
+  position: relative;
+}
 p{
   display: block;
   margin-block-start: 1em;

@@ -1,9 +1,7 @@
 import { CircularProgress, Container, Grid, Paper } from '@material-ui/core'
 import React from 'react'
 import useStyles from './styles'
-import {useEffect, useState} from 'react'
 import Array from './Array'
-import axios from 'axios'
 
 
 
@@ -11,7 +9,7 @@ import axios from 'axios'
         {
            id:1,
            step:'01',
-           src: require('./stud1.jpg'),
+           src: require('./52.jpeg'),
            desc:'If you look at history, innovation doesn’t come just from giving people incentives; it comes .',
            reminder:true,
            title:`Headed to meeting! ✨`
@@ -19,7 +17,7 @@ import axios from 'axios'
         {
            id:2,
            step:'02',
-           src: require('./stud2.jpg'),
+           src: require('./elpgroup.jpg'),
            desc:'Outdoors activities that improve our emotional, intellectual, and behavioral development.',
            reminder:true,
            title:'Our precious bond ❤'
@@ -27,7 +25,7 @@ import axios from 'axios'
         {
             id:3,
             step:'03',
-            src: require('./stud3.avif'),
+            src: require('./elpgroup2.jpg'),
             desc:'The Wings to Fly stepped in with a scholarship',
             reminder:true,
             title:'enjoying a beautiful sunset 🌅'
@@ -35,7 +33,7 @@ import axios from 'axios'
          {
             id:4,
             step:'04',
-            src: require('./stud4.jpg'),
+            src: require('./54.jpeg'),
             desc:'From our weekly sessions in school auditorium. Activities done during this sessions help unite our group.',
             reminder:true,
             title:'enjoying a beautiful sunset'

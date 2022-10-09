@@ -13,7 +13,7 @@ const AboutUs = () => {
         {
            id:1,
            step:'01',
-           src: require('../../Arrays/stud1.jpg'),
+           src: require('./photos/57.jpeg'),
            desc:'If you look at history, innovation doesn’t come just from giving people incentives; it comes .',
            reminder:true,
            title:`Mentorship Programs`
@@ -21,7 +21,7 @@ const AboutUs = () => {
         {
            id:2,
            step:'02',
-           src: require('../../Arrays/stud2.jpg'),
+           src: require('./photos/elpabout.jpg'),
            desc:'We participate in team games that promote the spirit of togetherness.',
            reminder:true,
            title:'Team Building'
@@ -29,7 +29,7 @@ const AboutUs = () => {
         {
             id:3,
             step:'03',
-            src: require('../../Arrays/stud3.avif'),
+            src: require('./photos/56.jpeg'),
             desc:'Our club engages with other leaders outside the school to enhance our local leaders',
             reminder:true,
             title:'Leadership Development'
@@ -37,7 +37,7 @@ const AboutUs = () => {
          {
             id:4,
             step:'04',
-            src: require('../../Arrays/stud4.jpg'),
+            src: require('./photos/55.jpeg'),
             desc:'From our weekly sessions in school auditorium. Activities done during this sessions help unite our group.',
             reminder:true,
             title:'Social benefits ',

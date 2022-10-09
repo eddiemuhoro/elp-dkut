@@ -1,6 +1,5 @@
-import { Button, Grid } from '@material-ui/core'
+import {  Grid } from '@material-ui/core'
 import React, { useState } from 'react'
-import PopUp from '../PopUp/PopUp'
 import './leaders.css'
 import LeadersPop from './LeadersPop/LeadersPop'
 const Leaders = () => {
@@ -10,7 +9,7 @@ const Leaders = () => {
         {
            id:1,
            step:'01',
-           src: require('../../Arrays/stud1.jpg'),
+           src: require('./photos/1.jpg'),
            desc:'If you look at history, innovation doesn’t come just from giving people incentives; it comes .',
            reminder:true,
            title:`Mentorship Programs`,
@@ -19,7 +18,7 @@ const Leaders = () => {
         {
            id:2,
            step:'02',
-           src: require('../../Arrays/stud2.jpg'),
+           src: require('./photos/3.jpg'),
            desc:'We participate in team games that promote the spirit of togetherness.',
            reminder:true,
            title:'Team Building',
@@ -28,7 +27,7 @@ const Leaders = () => {
         {
             id:3,
             step:'03',
-            src: require('../../Arrays/stud3.avif'),
+            src: require('./photos/4.jpg'),
             desc:'Our club engages with other leaders outside the school to enhance our local leaders',
             reminder:true,
             title:'Leadership Development',
@@ -37,7 +36,7 @@ const Leaders = () => {
          {
             id:4,
             step:'04',
-            src: require('../../Arrays/stud4.jpg'),
+            src: require('./photos/5.jpg'),
             desc:'From our weekly sessions in school auditorium. Activities done during this sessions help unite our group.',
             reminder:true,
             title:'Social benefits ',
