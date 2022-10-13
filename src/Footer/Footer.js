@@ -11,7 +11,7 @@ const Footer = () => {
                 <ul>
                     <li>Equity Group Foundation <img src={Kenya}/></li> 
 
-                    <li><a href="tel:+254 (020) 2744000">+254 (020) 2744000</a></li>
+                    <li><a href="tel:+254 794183313">+254 794183313</a></li>
 
                     <li class="footer-space"><a
                             href="support@equitygroupfoundation.org">support@equitygroupfoundation.org</a></li>
