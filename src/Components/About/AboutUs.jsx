@@ -48,12 +48,13 @@ const AboutUs = () => {
     <Container >
         <h1>About Us</h1>
         <AboutInner/>
-   <Grid container justifyContent='space-around'>
+        <h1>Activities</h1>
+   <Grid container justifyContent='space-around' className='about-container'>
             {posts.map((post)=>(
                 <Grid item  md={3} sm={6} xs={12} >
                     <Paper className='about-grid'>
 
-                            <Card sx={{ maxWidth: 345 }}>
+                            <Card sx={{ maxWidth: 0 }}>
                         <CardActionArea>
                         <CardMedia
                                 component="img"

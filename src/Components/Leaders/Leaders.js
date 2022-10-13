@@ -48,7 +48,7 @@ const Leaders = () => {
     <div>
        
         <div className='leader-container'>
-        <h1 style={{color:'marron'}}>Leaders</h1>
+        <h1 style={{color:'white'}}>Leaders</h1>
         <Grid container alignItems='center' >
 
             {posts.map((post)=>(

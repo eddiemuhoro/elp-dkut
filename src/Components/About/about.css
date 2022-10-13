@@ -1,4 +1,9 @@
 .about-grid{
     margin: 10px;
     box-sizing: border-box;
+    width: 80%;
+    margin: auto;
 }
+/* h1{
+    text-decoration: underline;
+} */

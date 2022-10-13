@@ -6,8 +6,10 @@
 
 .leader-container{
     
-    width: 100%;  
-    background-color: darkgrey;
+    width: 100%; 
+    border-radius: 1rem; 
+    margin: auto;
+    background-color: rgb(126, 44, 44);
   
 }
 

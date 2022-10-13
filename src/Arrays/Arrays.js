@@ -2,7 +2,7 @@ import { CircularProgress, Container, Grid, Paper } from '@material-ui/core'
 import React from 'react'
 import useStyles from './styles'
 import Array from './Array'
-
+import './arrays.css'
 
 
     const posts=[
@@ -52,9 +52,9 @@ import Array from './Array'
             // }, []);
         return (     
         !posts.length ? <CircularProgress /> :(
-        <Container>
+        <Container className='gallery-container'>
             <h1>POSTS</h1>
-            <Grid container alignItems='flex-end'>
+            <Grid container alignItems='flex-end' >
                 
                     
                         {posts.map((post)=> (

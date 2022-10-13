@@ -13,7 +13,7 @@ const Array = ({task}) => {
   return (
       <>
       
-        <Card>
+        <Card className='gallery-container'>
           <CardHeader
             avatar={
               <Avatar sx={{bgcolor: red[500]}} arial-label="recipe">
