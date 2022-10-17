@@ -14,7 +14,7 @@ const AboutUs = () => {
            id:1,
            step:'01',
            src: require('./photos/57.jpeg'),
-           desc:'If you look at history, innovation doesn’t come just from giving people incentives; it comes .',
+           desc:'We train all our members mentoship skills and everything you need to enable someone in their lowest go that extra mile. We are the DeKUT ELP chapter.',
            reminder:true,
            title:`Mentorship Programs`
         },
@@ -22,7 +22,7 @@ const AboutUs = () => {
            id:2,
            step:'02',
            src: require('./photos/elpabout.jpg'),
-           desc:'We participate in team games that promote the spirit of togetherness.',
+           desc:'Various outdoor such as hiking,bike riding,give back activities ,games and challenge activities increase our unity and our family bonds.',
            reminder:true,
            title:'Team Building'
         },
@@ -30,15 +30,15 @@ const AboutUs = () => {
             id:3,
             step:'03',
             src: require('./photos/56.jpeg'),
-            desc:'Our club engages with other leaders outside the school to enhance our local leaders',
+            desc:'Our meeting sessions are scheduled weekly on Thursdays in S.O.B room 10 from 4pm.Everyone is welcome.',
             reminder:true,
-            title:'Leadership Development'
+            title:'Our Sessions'
          },
          {
             id:4,
             step:'04',
             src: require('./photos/55.jpeg'),
-            desc:'From our weekly sessions in school auditorium. Activities done during this sessions help unite our group.',
+            desc:'Building our members social life and impacting positively to the community is one of our goals.We organise various various give - back - to community activities which are freely open to everyone.',
             reminder:true,
             title:'Social benefits ',
             popTitle:'Testing head'

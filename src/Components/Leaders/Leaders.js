@@ -9,39 +9,39 @@ const Leaders = () => {
         {
            id:1,
            step:'01',
-           src: require('./photos/1.jpg'),
-           desc:'If you look at history, innovation doesn’t come just from giving people incentives; it comes .',
+           src: require('./photos/3.jpg'),
+           desc:'A platform for members to network,build strong brands,a chance to better their social skills and a place to better our society through community give back activities.',
            reminder:true,
            title:`Mentorship Programs`,
-           leader:'John Doe',
+           leader:'James Rukenya - Chapter President',
         },
         {
            id:2,
            step:'02',
-           src: require('./photos/3.jpg'),
-           desc:'We participate in team games that promote the spirit of togetherness.',
+           src: require('./photos/1.jpg'),
+           desc:'An opportunity to mentor fellow members and high school students,we also have talks on various upcoming issues.',
            reminder:true,
            title:'Team Building',
-           leader:"Jane Doe"
+           leader:"Kennedy Ngari - Chapter Vice President"
         },
         {
             id:3,
             step:'03',
             src: require('./photos/4.jpg'),
-            desc:'Our club engages with other leaders outside the school to enhance our local leaders',
+            desc:'We train our members on marketing skills,mentoship skills and professionalism.',
             reminder:true,
             title:'Leadership Development',
-            leader:'Robin Hood'
+            leader:'Grace Nyambura - Chapter Secretary '
          },
          {
             id:4,
             step:'04',
             src: require('./photos/5.jpg'),
-            desc:'From our weekly sessions in school auditorium. Activities done during this sessions help unite our group.',
+            desc:'We usually have our talks on various topics virtually or physically.Our meetings are held on Thursdays at room 10 in the School of business.We welcome all to join us.',
             reminder:true,
             title:'Social benefits ',
             popTitle:'Testing head',
-            Leader: 'Kevin Hart'
+            leader: 'Stella Muriithi - Events Coordinator'
            
          }]
   return (
@@ -65,7 +65,7 @@ const Leaders = () => {
                         <h2>{post.leader}</h2>                  
                     </div>
                     <div className='leader-desc'>
-                        <p>Our club engages with other leaders outside the school to enhance our local leaders</p>
+                        {post.desc}
                     </div>
                     <button className='leader-button' onClick={()=> setTrigger(true)}>MORE</button>
                 </div>

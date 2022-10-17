@@ -9,13 +9,14 @@ import AboutUs from './Components/About/AboutUs';
 import Navbar from './Components/NavBar/Navbar';
 import { Link } from 'react-scroll';
 import Leaders from './Components/Leaders/Leaders';
+import Jnavbar from './Components/JumiaNav/Jnavbar';
 
 function App() {
 
   return (
     <div className="App">
       
-      
+     
       <Navbar/>
       <div id='home'>
       <HeroPage/>
@@ -33,7 +34,7 @@ function App() {
       </div>
   <Footer/>
     </div>
-  );
+  )
 }
 
 export default App

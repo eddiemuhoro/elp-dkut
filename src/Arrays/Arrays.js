@@ -10,33 +10,33 @@ import './arrays.css'
            id:1,
            step:'01',
            src: require('./52.jpeg'),
-           desc:'If you look at history, innovation doesn’t come just from giving people incentives; it comes .',
+           desc:'Unity and having fun with our fellow ELP family members is one of the key goal of the chapter .',
            reminder:true,
-           title:`Headed to meeting! ✨`
+           title:`Hiking Zania Falls Nyeri! ✨`
         },
         {
            id:2,
            step:'02',
            src: require('./elpgroup.jpg'),
-           desc:'Outdoors activities that improve our emotional, intellectual, and behavioral development.',
+           desc:'It is through the psyche and urge of keeping the ELC family alive that keeps us pushing and trying our best daily.',
            reminder:true,
-           title:'Our precious bond ❤'
+           title:'Annual Mentorship and Leadership Training sessions❤'
         },
         {
             id:3,
             step:'03',
             src: require('./elpgroup2.jpg'),
-            desc:'The Wings to Fly stepped in with a scholarship',
+            desc:'A reunion of all alumni of the Equity Group Foundation and and new friends at Dedan Kmathi University of Technology.  ',
             reminder:true,
-            title:'enjoying a beautiful sunset 🌅'
+            title:'The beginning of learning mentorship skills🌅'
          },
          {
             id:4,
             step:'04',
             src: require('./54.jpeg'),
-            desc:'From our weekly sessions in school auditorium. Activities done during this sessions help unite our group.',
+            desc:'From our weekly meetings on Thursdays in S.O.B room 10, all activies we plan must come to success.',
             reminder:true,
-            title:'enjoying a beautiful sunset'
+            title:'Our unity is always our strength'
          }]
          
          const Arrays = () => {

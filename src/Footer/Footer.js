@@ -9,34 +9,30 @@ const Footer = () => {
             <div className='contact-us'>
                 <h3>CONTACT US</h3>
                 <ul>
-                    <li>Equity Group Foundation <img src={Kenya}/></li> 
+                    <li>ELP CHAPTER DeKUT   <img src={Kenya}/></li> 
 
-                    <li><a href="tel:+254 794183313">+254 794183313</a></li>
+                    <li><a href="tel:+254 791849836">+254 794183313</a></li>
 
                     <li class="footer-space"><a
-                            href="support@equitygroupfoundation.org">support@equitygroupfoundation.org</a></li>
+                            href="elcdekutchapter@gmail.com">elcdekutchapter@gmail.com</a></li>
 
-                    <li>Equity Group Foundation International <img src={Usa}/></li>
-
-                    <li><a href="tel:+1 345 678 903">+1 345 678 903 (USA)</a></li>
-
-                </ul>
+</ul>
             </div>
             <div className='our-work'>
                 <h3>OUR WORK</h3>
                 <ul>
 
-                    <li><a href="">Education & Leadership
+                    <li><a href="">Education 
                             Development</a></li>
 
-                    <li><a href="#">Agriculture</a></li>
+                    <li><a href="#">Leadership</a></li>
 
-                    <li><a href="#">Health</a></li>
+                    <li><a href="#">Mentorship</a></li>
 
-                    <li><a href="#">Entrepreneurship &
+                    <li><a href="#">Entrepreneurship  &
                             Financial Education</a></li>
 
-                    <li><a href="#">Energy & Environment</a></li>
+                    <li><a href="#">Marketing skills</a></li>
 
                 </ul>
             </div>
@@ -44,7 +40,7 @@ const Footer = () => {
                  <h3>QUICK LINKS</h3>
                  <ul>
 
-                    <li><a href="#">About EGF</a></li>
+                    <li><a href="#">About ELP DeKUT</a></li>
 
                     <li><a href="#">Impact Stories</a></li>
 
@@ -68,7 +64,7 @@ const Footer = () => {
                     <li><a href="/privacy-policy/">Privacy Policy | </a></li>
                     <li><a href="/terms-and-conditions/"> T&Cs</a></li>
                 </ul>
-                <a class="copyright">© Equity Group Foundation 2022</a>
+                <a class="copyright">© ELP DeKUT CHAPTER 2022</a>
 
 
             </div>
